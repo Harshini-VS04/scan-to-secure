@@ -1,8 +1,51 @@
-# pytest cache directory #
+Scan to Secure
 
-This directory contains data from the pytest's cache plugin,
-which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
+An AI-powered certificate verification and management system designed to securely scan, upload, authenticate, and validate certificates.
 
-**Do not** commit this to version control.
+Features
 
-See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
+- 🔐 Secure user authentication
+- 📄 Certificate upload and management
+- 🔍 OCR-based certificate data extraction
+- ✅ Certificate verification and validation
+- 👨‍🎓 Student dashboard
+- 🛡️ Secure backend APIs
+- 📊 Certificate and user management
+
+Technology Stack
+
+Frontend
+- HTML
+- CSS
+- JavaScript
+
+Backend
+- Python
+- FastAPI
+- Uvicorn
+
+Database
+- SQLite / Database backend
+
+AI / Processing
+- OCR
+- Document processing
+
+Project Structure
+
+```text
+Scan-to-Secure/
+│
+├── backend/
+│   └── app/
+│       ├── main.py
+│       ├── models/
+│       ├── schemas/
+│       ├── auth/
+│       └── ...
+│
+├── frontend/
+│
+├── README.md
+├── start.bat
+└── .gitignore
